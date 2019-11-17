@@ -1,0 +1,11 @@
+{
+  "name": "1.promise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitee.com/jw-speed/archive-6.git",
+  "author": "fandonglai <704072802@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0"
+  }
+}
