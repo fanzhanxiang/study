@@ -1,0 +1,24 @@
+{
+  "name": "lesson-zf",
+  "version": "1.0.0",
+  "description": "pack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hello"
+  },
+  "bin": {
+    "lesson-zf": "./bin/www",
+    "lz": "./bin/www"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "mime": "^2.4.4"
+  },
+  "bundleDependencies": [
+    "jquery"
+  ],
+  "optionalDependencies": {
+    "xxx": "2.1.1"
+  }
+}

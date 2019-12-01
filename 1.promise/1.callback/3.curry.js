@@ -20,9 +20,9 @@ console.log(utils.isNumber("456"));
 
 
 // 通用的柯里化
-// const add = (a, b, c, d, e) => {
-//   return a + b + c + d + e;
-// };
+const add = (a, b, c, d, e) => {
+  return a + b + c + d + e;
+};
 const curring = (fn,arr = [])=>{
     let len = fn.length
     return (...args)=>{
@@ -33,8 +33,8 @@ const curring = (fn,arr = [])=>{
         return fn(...arr)
     }
 }
-let r = curring(add)(1)(2)(3)(4); // [1,2,3,4,5]
-// console.log(r);
+let r = curring(add)(1)(2)(3)(4)(5); // [1,2,3,4,5]
+console.log(r);
 const checkType = (type, content) => {
     return Object.prototype.toString.call(content) === `[object ${type}]`;
 };

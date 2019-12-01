@@ -1,0 +1,19 @@
+{
+  "name": "lesson-zf",
+  "version": "1.0.0",
+  "description": "pack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lesson-zf": "./bin/www",
+    "lz": "./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "3.4.1"
+  },
+  "bundleDependencies": []
+}
