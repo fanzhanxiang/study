@@ -1,0 +1,10 @@
+{
+    "presets": [
+        ["@babel/preset-env",{
+            "targets":{
+                // current标识node的当前版本
+                "node":"current"
+            }
+        }]
+    ]
+}
