@@ -20,7 +20,8 @@ let app = {
         // const dispatch = async (index)=>{
         //     if(index === this.arr.length) return;
         //    let middle =  this.arr[index];
-        // // ()=>dispatch(index+1)->这里就相当于next，所以需要next从外到里依次执行,这就是洋葱模型,总算是理解洋葱模型里面的use的用法了
+        // // ()=>dispatch(index+1)->这里就相当于next，所以需要next从外到里依次执行,这就是洋葱模型,总算是理解洋葱模型了，
+        // // next执行的时候才会再执行一遍dispatch方法，才会再执行依次fn,所以需要next执行才会执行下一个方法
         //    return middle(()=>dispatch(index+1));
         // }
         // return dispatch(0);
